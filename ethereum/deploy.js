@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-    'cricket lunch tide pizza sleep spring field garment network benefit sea segment',
+    'your seed phrase',
     'https://rinkeby.infura.io/v3/dcb3c7b7564346749303aca1e364fd8b'
 );
 const web3 = new Web3(provider);
